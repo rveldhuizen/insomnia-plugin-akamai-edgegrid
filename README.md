@@ -12,8 +12,8 @@ Go to Preferences->Plugins, install `insomnia-plugin-akami-edgegrid`
 
 1. Setup your environment to include your .edgerc configuration
 
-![Screenshot](https://raw.githubusercontent.com/rveldhuizen/insomnia-plugin-akami-edgegrid/main/readme-ss-environment.png)
+![Screenshot](https://raw.githubusercontent.com/rveldhuizen/insomnia-plugin-akamai-edgegrid/main/readme-ss-environment.png)
 
 2. Add a "dummy" header EdgeAuthorization - this triggers the generation of the Akamai Authorization header
 
-![Screenshot](https://raw.githubusercontent.com/rveldhuizen/insomnia-plugin-akami-edgegrid/main/readme-ss-edgegrid-header.png)
+![Screenshot](https://raw.githubusercontent.com/rveldhuizen/insomnia-plugin-akamai-edgegrid/main/readme-ss-header.png)
