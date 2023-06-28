@@ -1,0 +1,32 @@
+{
+  "name": "insomnia-plugin-akamai-edgegrid",
+  "description": "Generate Authorization header for Akamai API with akamai-edgegrid package",
+  "version": "1.0.0",
+  "private": true,
+  "insomnia": {
+    "name": "edgegrid",
+    "description": ""
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "authorization",
+    "akamai",
+    "edgegrid"
+  ],
+  "license": "ISC",
+  "author": {
+    "name": "Raymond Veldhuizen",
+    "email": "rveldhuizen@gmail.com",
+    "url": "https://rveldhuizen.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rveldhuizen/insomnia-plugin-akamai-edgegrid.git"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "akamai-edgegrid": "^3.4.1"
+  },
+  "readme": "https://github.com/rveldhuizen/insomnia-plugin-akamai-edgegrid#readme"
+}
