@@ -6,7 +6,7 @@ Akamai EdgeGrid Authorization: https://developer.akamai.com/legacy/introduction/
 
 ## Install
 
-Go to Preferences->Plugins, install `insomnia-plugin-akami-edgegrid`
+Go to Preferences->Plugins, install `insomnia-plugin-akamai-edgegrid`
 
 ## How to use
 
