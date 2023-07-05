@@ -1,7 +1,7 @@
 {
   "name": "insomnia-plugin-akamai-edgegrid",
   "description": "Generate Authorization header for Akamai API with akamai-edgegrid package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "insomnia": {
     "name": "edgegrid",
