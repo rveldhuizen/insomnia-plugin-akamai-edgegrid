@@ -13,12 +13,17 @@ module.exports.requestHooks = [
             const baseUri = "https://" + context.request.getEnvironmentVariable("host") + "/";
 
             const headers = context.request.getHeaders();
+            
             // Generate headers with akamai-edgegrid
             const eg = new EdgeGrid(clientToken, clientSecret, accessToken, baseUri);
+            const parsedUrl = new URL(context.request.getUrl());
+            const parameterArray = context.request.getParameters();
+            const parameters = parameterArray.reduce( (obj, item) => Object.assign(obj, { [item.name]: item.value }), {});
             eg.auth({
-                path: context.request.getUrl().replace(baseUri, ""),
+                path: parsedUrl.pathname,
                 method: context.request.getMethod(),
                 headers: headers,
+                qs: parameters,
                 body: context.request.getBodyText()
             });
 
